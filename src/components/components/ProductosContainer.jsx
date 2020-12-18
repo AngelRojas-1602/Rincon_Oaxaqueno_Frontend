@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
@@ -93,18 +94,21 @@ function ProductosContainer(props) {
         'https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400&q=80',
       title: 'Mayordomo',
       width: '40%',
+      link: '/productos'
     },
     {
       url:
         'https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400&q=80',
       title: 'Mezcal & Cremas',
       width: '20%',
+      link: '/productos'
     },
     {
       url:
         'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80',
       title: 'Salsas',
       width: '40%',
+      link: '/productos'
     },
 
     {
@@ -112,12 +116,14 @@ function ProductosContainer(props) {
         'https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400&q=80',
       title: 'Artesanias',
       width: '55%',
+      link: '/productos'
     },
     {
       url:
         'https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400&q=80',
       title: 'Gastronomia',
       width: '45%',
+      link: '/productos'
     },
   ];
 
@@ -128,8 +134,13 @@ function ProductosContainer(props) {
       </Typography>
       <div className={classes.images}>
         {images.map((image) => (
-            <ButtonBase
+          <ButtonBase
               key={image.title}
+              component={Link}
+              to={image.link}
+              //Otra forma de usar el link
+              // component={'a'}
+              // href={image.link}
               className={classes.imageWrapper}
               style={{
                 width: image.width,

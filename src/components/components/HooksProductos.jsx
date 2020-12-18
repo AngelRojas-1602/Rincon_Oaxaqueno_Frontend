@@ -54,6 +54,8 @@ const HooksProductos = () => {
           <TarjetaProductos
             name={personaje.name}
             image={personaje.image}
+            status={personaje.status}
+            species={personaje.species}
           />
         ))
       }

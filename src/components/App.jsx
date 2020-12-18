@@ -12,24 +12,27 @@ import PrimaryLayout from './layouts/PrimaryLayout'
 //import LayoutMasMejor from './layouts/LayoutNuevoDePaquete'
 import Saludador from './pages/Saludador'
 import Productos from './pages/Productos'
+import Typography from './components/Typography'
 
 
 
 function App() {
   return (
-    <Router className="router">
-    <PrimaryLayout>
-      <Switch>
-        <Route exact path="/"  component={HomePage}/>
-        <Route path="/about"  component={AboutPage}/>
-        <Route path="/contact"  component={ContactPage}/>
-        <Route path="/productos" component={Productos}/>
-        <Route path="/saludador" component={Saludador}/>
-        <Route path="/saludador/:name" component={Saludador}/>
-        <Route path="/*"  component={NotFound}/>
-      </Switch>
-    </PrimaryLayout>
-    </Router>
+    <Typography>
+      <Router className="router">
+        <PrimaryLayout>
+          <Switch>
+            <Route exact path="/"  component={HomePage}/>
+            <Route path="/about"  component={AboutPage}/>
+            <Route path="/contact"  component={ContactPage}/>
+            <Route path="/productos" component={Productos}/>
+            <Route path="/saludador" component={Saludador}/>
+            <Route path="/saludador/:name" component={Saludador}/>
+            <Route path="/*"  component={NotFound}/>
+          </Switch>
+        </PrimaryLayout>
+      </Router>
+    </Typography>
   );
 }
 
