@@ -20,37 +20,35 @@ const Home = (props) => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://dl.dropboxusercontent.com/s/efjfzqfsf6wzcaf/WhatsApp%20Image%202020-08-20%20at%2018.09.43.jpeg?dl=0"
-                    alt="First slide"
+                    src="https://dl.dropboxusercontent.com/s/u68hl9dfh3s9t6t/Clasico1Kg.png?dl=0"
+                    alt="Clasico 1Kg"
                     />
-                    <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    {/* <Carousel.Caption>
+                    <h3>Chocolate Mayordomo</h3>
+                    <p>Clasico 1Kg</p>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://dl.dropboxusercontent.com/s/efjfzqfsf6wzcaf/WhatsApp%20Image%202020-08-20%20at%2018.09.43.jpeg?dl=0"
-                    alt="Third slide"
+                    src="https://dl.dropboxusercontent.com/s/umz6enxmx9943jj/Premium1Kg.png?dl=0"
+                    alt="Chocolate Premium1Kg"
                     />
-
-                    <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    {/* <Carousel.Caption>
+                    <h3>Chocolate Mayordomo</h3>
+                    <p>Premium 1Kg</p>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://dl.dropboxusercontent.com/s/efjfzqfsf6wzcaf/WhatsApp%20Image%202020-08-20%20at%2018.09.43.jpeg?dl=0"
-                    alt="Third slide"
+                    src="https://dl.dropboxusercontent.com/s/taktf21fnykxju4/Semiamargo1Kg.png?dl=0"
+                    alt="Semiamargo 1Kg"
                     />
-
-                    <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
+                    {/* <Carousel.Caption>
+                    <h3>Chocolate Mayordomo</h3>
+                    <p>SEMIAMARGO 1Kg</p>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
             </Carousel>
         </div>
