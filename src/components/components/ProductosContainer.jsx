@@ -94,6 +94,7 @@ function ProductosContainer(props) {
         'https://dl.dropboxusercontent.com/s/u68hl9dfh3s9t6t/Clasico1Kg.png?dl=0',
       title: 'Mayordomo',
       width: '40%',
+      height: '200px',
       link: '/productos'
     },
     {
@@ -101,6 +102,7 @@ function ProductosContainer(props) {
         'https://dl.dropboxusercontent.com/s/xand5k3md3h6p6c/Mezcalitos.png?dl=0',
       title: 'Mezcal & Cremas',
       width: '20%',
+      height: '200px',
       link: '/productos'
     },
     {
@@ -108,6 +110,7 @@ function ProductosContainer(props) {
         'https://dl.dropboxusercontent.com/s/a5gdgx8toqlncxf/RojoFrasco.png?dl=0',
       title: 'Salsas',
       width: '40%',
+      height: '200px',
       link: '/productos'
     },
 
@@ -116,6 +119,7 @@ function ProductosContainer(props) {
         'https://dl.dropboxusercontent.com/s/taktf21fnykxju4/Semiamargo1Kg.png?dl=0',
       title: 'Artesanias',
       width: '55%',
+      height: '200px',
       link: '/productos'
     },
     {
@@ -123,6 +127,7 @@ function ProductosContainer(props) {
         'https://dl.dropboxusercontent.com/s/fk395mnwdm71nbd/ChocomioPromo.png?dl=0',
       title: 'Gastronomia',
       width: '45%',
+      height: '200px',
       link: '/productos'
     },
   ];
@@ -144,6 +149,7 @@ function ProductosContainer(props) {
               className={classes.imageWrapper}
               style={{
                 width: image.width,
+                height: image.height,
               }}
             >
               <span

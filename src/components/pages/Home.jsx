@@ -10,9 +10,9 @@ const Home = (props) => {
         <div className="parte-00">
 
         <div className='parte-01'>
-            <div className="parte-01-text">
+            {/* <div className="parte-01-text">
                 Si quieres contactarnos da <Link to="/contact"> Click aqui</Link>
-            </div>
+            </div> */}
         </div>
 
         <div className='parte-02'>

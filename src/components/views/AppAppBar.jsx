@@ -32,7 +32,13 @@ function AppAppBar(props) {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} />
-
+          <img
+            alt="Logo"
+            src="https://dl.dropboxusercontent.com/s/2rs47l6m7jpsj5b/Rincon%20Oaxaque%C3%B1o_preview_rev_1.png?dl=0"
+            width="65"
+            height="65"
+            className="d-inline-block align-top"
+          />{' '}
           <Link
             variant="h6"
             underline="none"
