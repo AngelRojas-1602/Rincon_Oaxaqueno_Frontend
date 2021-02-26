@@ -13,9 +13,8 @@ const HooksProductos = () => {
   // ComponentDidMount para cargar el api
   useEffect(() => {
     setIsLoading(true)
-    const pagina = Math.floor(Math.random() * 34)
     fetch(`
-    https://rickandmortyapi.com/api/character?page=${pagina}
+    ${process.env.REACT_APP_API}/products
     `)
       .then(response => response.json())
       .then(json => {
@@ -50,12 +49,13 @@ const HooksProductos = () => {
         !isLoading
         && !hasError
         && data.length > 0
-        && data.map(personaje => (
+        && data.map(product => (
           <TarjetaProductos
-            name={personaje.name}
-            image={personaje.image}
-            status={personaje.status}
-            species={personaje.species}
+            name={product.name}
+            picture={product.picture}
+            price={product.price}
+            description={product.description}
+            stock={product.stock}
           />
         ))
       }

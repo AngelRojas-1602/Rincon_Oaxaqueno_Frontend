@@ -11,7 +11,7 @@ function Productos() {
             onClick={() => setShowComponent(!showComponent)}
             style={{margin: '20px'}}
             >
-            Intercambiar components
+            Mostrar Productos
             </Button>
 
             {showComponent && <HooksProductos />}
