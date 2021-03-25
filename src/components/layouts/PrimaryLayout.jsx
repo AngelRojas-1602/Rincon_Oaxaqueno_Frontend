@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 const PrimaryLayout = (props) => {
     return (
-        <div>
+        <div className="PrimaryLayout">
         <Header />
             {props.children}
         <Footer />

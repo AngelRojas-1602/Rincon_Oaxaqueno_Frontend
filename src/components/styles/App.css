@@ -4,10 +4,19 @@
 
 .footer {
     color: black;
+    font-size: large;
+}
+
+.PrimaryLayout {
+    background-color: #E8D2D9;
 }
 
 .router {
     color: #fff;
+}
+
+.Carrousel {
+    margin-top: 30px;
 }
 
 .parte-00 {
@@ -56,32 +65,26 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: #42A5F5;
+    background-image: url('http://net-xperience.com/wp-content/uploads/2015/02/en-construccion.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     padding: 5%;
     margin: 15px;
 }
 
-.parte-04 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    background-color: #42A5F5;
-    color: black;
-    padding: 5%;
-    margin: 15px;
-}
 
-.parte-05 {
+/* .parte-04 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: #42A5F5;
+    background-color: #C0848D;
     color: black;
     padding: 5%;
     margin: 15px;
-}
+} */
 
 .tarjeta-productos {
     border: 1px solid #ccc;

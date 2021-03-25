@@ -8,7 +8,7 @@ import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
 
 const styles = (theme) => ({
   title: {
-    fontSize: 20,
+    fontSize: 30,
     flex: 1,
     display: 'flex',
     justifyContent: 'center'
@@ -16,11 +16,11 @@ const styles = (theme) => ({
   placeholder: toolbarStyles(theme).root,
   toolbar: {
     justifyContent: 'space-between',
-    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+    background: '#D26477',
     border: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    color: 'white'
+    color: '#D0C9FA'
   }
 });
 

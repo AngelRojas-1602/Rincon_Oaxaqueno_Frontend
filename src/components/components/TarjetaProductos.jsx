@@ -3,16 +3,14 @@ import React from 'react'
 const TarjetaProductos = (props) => {
     return (
         <div className="tarjeta-productos">
-            <img className="tarjeta-product-image" src={props.picture} alt=""/>
-            <h2 className='tarjeta-product-titles'>{props.name}</h2>
-            <h4 className='tarjeta-product-titles'>{props.price}</h4>
-            <h4 className='tarjeta-product-titles'>{props.description}</h4>
-            <h4 className='tarjeta-product-titles'>{props.stock}</h4>
+            <img className="tarjeta-product-image" src={props.image} alt=""/>
+            <h2 className='tarjeta-product-titles'>Nombre: {props.name}</h2>
+            <h4 className='tarjeta-product-titles'>Precio: ${props.created}</h4>
+            <h4 className='tarjeta-product-titles'>Descripcion: {props.description}</h4>
+            <h4 className='tarjeta-product-titles'>Disponibilidad en Stock: {props.stock}</h4>
             {/* <p>{props.ALGO</p> */}
         </div>
     )
 }
-
-//style={{width: '50%', height: '50%'}}
 
 export default TarjetaProductos

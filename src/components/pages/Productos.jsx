@@ -6,7 +6,7 @@ function Productos() {
     const [showComponent, setShowComponent] = useState(false)
     return (
         <div>
-            <Button
+            {/* <Button
             color="primary"
             onClick={() => setShowComponent(!showComponent)}
             style={{margin: '20px'}}
@@ -14,7 +14,8 @@ function Productos() {
             Mostrar Productos
             </Button>
 
-            {showComponent && <HooksProductos />}
+            {showComponent && <HooksProductos />} */}
+            <HooksProductos />
         </div>
         )
     }
